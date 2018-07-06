@@ -21,6 +21,7 @@ spring:
     multipart:
       max-file-size: 30Mb
       max-request-size: 30Mb
+#热部署
   devtools:
     restart:
       enabled: true    

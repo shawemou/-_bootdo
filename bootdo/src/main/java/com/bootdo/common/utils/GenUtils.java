@@ -140,7 +140,8 @@ public class GenUtils {
     /**
      * 列名转换成Java属性名
      */
-    public static String columnToJava(String columnName) {
+    public static String columnToJava
+    (String columnName) {
         return WordUtils.capitalizeFully(columnName, new char[]{'_'}).replace("_", "");
     }
 
